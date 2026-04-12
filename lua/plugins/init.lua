@@ -1,0 +1,11 @@
+vim.pack.add({ 
+	"https://github.com/echasnovski/mini.nvim",
+	"https://github.com/nvim-lua/plenary.nvim",
+  "https://github.com/nvim-telescope/telescope.nvim",
+  "https://github.com/nvim-telescope/telescope-fzf-native.nvim",
+  "https://github.com/lewis6991/gitsigns.nvim",
+})
+require("plugins.oil")
+require("plugins.telescope")
+require("plugins.which-key")
+require("plugins.gitsigns")
