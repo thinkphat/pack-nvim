@@ -3,6 +3,12 @@ if ok_tel then
   local actions = require("telescope.actions")
   telescope.setup({
     defaults = {
+      layout_strategy = "horizontal",
+      layout_config = {
+        width = 0.95,   -- 95% màn hình (gần full)
+        height = 0.95,
+        preview_width = 0.6,
+      },
       mappings = { i = { ["<C-u>"]=false,["<C-d>"]=false } }
     },
     pickers = {
@@ -39,6 +45,7 @@ if ok_tel then
   map('n', '<leader>fa', function()
     builtin.find_files({
       hidden = true,
+      no_ignore = true,
     })
   end, { desc = 'Find All Files' })
 

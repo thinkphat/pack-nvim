@@ -37,7 +37,7 @@ pcall(function()
       map('n','<leader>gtb',gs.toggle_current_line_blame,'Toggle Blame')
       map('n','<leader>gtd',gs.toggle_deleted,'Toggle Deleted')
 
-      map('n','<leader>guh',gs.undo_stage_hunk,'Undo Stage')
+      map('n','<leader>gu',gs.undo_stage_hunk,'Undo Stage')
     end
   })
 end)
