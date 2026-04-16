@@ -1,1 +1,2 @@
-vim.keymap.set("n", "-", "<cmd>Oil<CR>", {desc = "File explorer"})
+
+vim.keymap.set("n","-","<cmd>Oil<CR>",{ desc="file explorer" })

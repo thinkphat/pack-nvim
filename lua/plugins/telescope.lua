@@ -5,7 +5,7 @@ if ok_tel then
     defaults = {
       layout_strategy = "horizontal",
       layout_config = {
-        width = 0.95,   -- 95% màn hình (gần full)
+        width = 0.95,   
         height = 0.95,
         preview_width = 0.6,
       },
